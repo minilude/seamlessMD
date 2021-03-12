@@ -1,0 +1,11 @@
+<p>Name of patient: {{name}}</p>
+<p>Organization name: {{organization}}</p>
+<p>Gender: {{gender}}</p>
+<p>Number of conditions they have: {{numberOfConditions}}</p>
+<p>List of all conditions:</p>
+
+<ul>
+  {{#each conditions}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
